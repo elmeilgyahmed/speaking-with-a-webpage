@@ -225,7 +225,7 @@
           startByteStream(e);
         }, {once: true});
 
-        socket.send(JSON.stringify({sampleRate: context.sampleRate,languageCode: languageCode,}));
+        socket.send(JSON.stringify({sampleRate: context.sampleRate,languageCode: languageCode}));
 
       }).catch(console.log.bind(console));
     }
